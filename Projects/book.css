@@ -1,0 +1,154 @@
+/* Common Styles */
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: "Dongle-light";
+    src: url("Dongle/Dongle-Light.ttf");
+}
+@font-face {
+    font-family: "Dongle-regular";
+    src: url("Dongle/Dongle-Regular.ttf");
+}
+@font-face {
+    font-family: "Dongle-bold";
+    src: url("Dongle/Dongle-Bold.ttf");
+}
+body{
+    background-image: url(images/goa.jpg);
+}
+header{
+    display: flex;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+    align-items: center;
+}
+.logo img{
+    width:100px;
+    height: 50px;
+    margin-right: 695px;
+    
+}
+.nav-menu ul{
+ display: flex;
+}
+.nav-menu li{
+    list-style: none;
+    margin-right: 20px;
+}
+.nav-menu li:last-child{
+    margin-right: 0;
+}
+.nav-menu a{
+    text-decoration: none;
+    font-family: "Dongle-bold";
+    font-size: 1.6rem;
+    color: #333;
+    transition: all ease 0.3s;
+}
+.nav-menu a:hover{
+    color: #ff7f50;
+}
+
+
+.hello{
+    width: 100vw;
+    height: 100vh;
+    
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.booking-form {
+    width: 400px;
+    height: 600px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: "Dongle-regular";
+    
+}
+
+.booking-form h2 {
+    font-family: "Dongle-bold";
+    font-size: 2.4rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group input[type="range"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.4rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group input[type="range"] {
+    width: calc(100% - 20px);
+    margin-top: 10px;
+}
+
+#budgetValue {
+    font-family: "Dongle-bold";
+    font-size: 1.8rem;
+    color: #ff7f50;
+    margin-left: 10px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 12px 0;
+    font-family: "Dongle-bold";
+    font-size: 1.8rem;
+    color: #fff;
+    background-color: #ff7f50;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #333;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    margin-top: 180px;
+}
+.social-icons a{
+    color: #fff;
+    font-size: 24px;
+    margin-right: 20px;
+}
+footer p{
+    font-family: "Dongle-regular";
+    font-size: 1.4rem;
+}
